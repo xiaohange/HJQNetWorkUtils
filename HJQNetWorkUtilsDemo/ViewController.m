@@ -4,7 +4,7 @@
 //
 //  Created by HanJunQiang on 16/7/6.
 //  Copyright © 2016年 HaRi. All rights reserved.
-//
+//  iOS开发者交流qq群：446310206
 
 #import "ViewController.h"
 #import "HJQNetWorkUtils.h"
@@ -16,9 +16,9 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
+
     // 网络监控测试
-    [HJQNetWorkUtils netWorkState:^(NSInteger netState) {
+    [HJQNetWorkUtils netWorkStateWith:self andWorkState:^(NSInteger netState) {
         switch (netState) {
             case 1:
                 NSLog(@"手机流量上网");

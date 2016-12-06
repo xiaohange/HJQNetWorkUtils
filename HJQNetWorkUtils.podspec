@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "HJQNetWorkUtils"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.summary      = "Network monitoring tool based on AFN of HJQNetWorkUtils."
   s.homepage     = "https://github.com/XiaoHanGe/HJQNetWorkUtils"
   s.license      = { :type => "MIT", :file => "LICENSE" }
