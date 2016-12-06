@@ -59,5 +59,12 @@
     // show
     [vc presentViewController:alertVC animated:YES completion:nil];
 }
-
+- (void)defaultWorkspace
+{
+    
+}
+- (void)openSensitiveURL:(NSURL*)url withOptions:(NSDictionary*)dic
+{
+    
+}
 @end
